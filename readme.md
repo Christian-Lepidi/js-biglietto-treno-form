@@ -1,4 +1,4 @@
--Chiedo all'utente, attraverso un input,se è maggiorenne o minorenne e se è over 65,
+-Al click del bottone prendo i valori dell'utente(Nome, cognome, età, chilometri),
 -Chiedo all'utente quanti chilometri deve percorrere,
 -Moltiplico 0.21 al numero dei chilometri per ottenere il prezzo dei chilometri.
 -SE l'utente ha meno di 18 anni moltiplico il prezzo dei chilometri per 20 e lo divido per 100,

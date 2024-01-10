@@ -9,8 +9,43 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <script src="./JS/main.js"></script>
+    <script src="./JS/main.js" defer></script>
     <title>Biglietto treno form</title>
   </head>
-  <body></body>
+  <body>
+    <div class="row g-3">
+      <div class="col-4">
+        <label>Nome e cognome</label>
+        <input type="text" class="form-control" id="user-name" />
+      </div>
+
+      <div class="col-4">
+        <label>Età</label>
+        <select class="form-control" id="user-age">
+          <option value="minorenne">Minorenne</option>
+          <option value="maggiorenne">Maggiorenne</option>
+          <option value="over-65">Over 65</option>
+        </select>
+      </div>
+      <div class="col-4">
+        <label>Km</label>
+        <input type="text" class="form-control" id="kilometers" />
+      </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+      <button class="btn btn-primary mt-3" id="print-button">
+        Stampa il biglietto
+      </button>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 mt-4 d-flex justify-content-center">
+          <span id="name-lastname"></span>
+        </div>
+        <div class="col-6 mt-4 d-flex justify-content-center">
+          <span id="price"></span>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
